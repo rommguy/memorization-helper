@@ -1,0 +1,59 @@
+{
+  "extends": "react-app",
+  "plugins": ["react", "promise", "jest"],
+  "rules": {
+    "radix": "error",
+    "jest/no-focused-tests": "error",
+    "jest/no-disabled-tests": 1,
+    "no-unexpected-multiline": "error",
+    "consistent-return": 2,
+    "dot-notation": 2,
+    "no-else-return": 2,
+    "no-redeclare": 2,
+    "no-return-assign": 2,
+    "no-undef-init": 2,
+    "no-undef": 2,
+    "no-use-before-define": 0,
+    "prefer-template": 2,
+    "quotes": 0,
+    "eol-last": 0,
+    "no-console": 2,
+    "no-unreachable": "error",
+    "arrow-body-style": [2, "as-needed"],
+    "arrow-spacing": [2, { "before": true, "after": true }],
+    "arrow-parens": [2, "as-needed"],
+    "no-duplicate-imports": 2,
+    "no-unused-vars": [2, { "varsIgnorePattern": "React" }],
+    "no-var": 2,
+    "object-shorthand": 2,
+    "prefer-const": 2,
+    "no-extra-semi": 2,
+    "semi": [2, "never"],
+    "prefer-arrow-callback": [
+      1,
+      {
+        "allowNamedFunctions": false,
+        "allowUnboundThis": true
+      }
+    ],
+    "prefer-rest-params": 2,
+    "prefer-spread": 2,
+    "react/prop-types": [
+      2,
+      {
+        "ignore": ["children"]
+      }
+    ],
+    "react/no-unused-prop-types": 2,
+    "react/sort-comp": 2,
+    "react/display-name": 2,
+    "react/no-danger": 2,
+    "react/no-did-mount-set-state": 2,
+    "react/no-did-update-set-state": 2,
+    "react/self-closing-comp": 2,
+    "react/jsx-wrap-multilines": 2,
+    "react/jsx-key": 2,
+    "react/jsx-pascal-case": 2,
+    "react/jsx-uses-vars": 2
+  }
+}
