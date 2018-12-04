@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "pageType": "emergenencyProcedures",
+      "pageTitle": "",
+      "sections": [
+        {
+          "sectionType": "list",
+          "sectionTitle": "",
+          "texts": [
+            {
+              "textSegments": [
+                {
+                  "text": "",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionType": "warning",
+          "sectionTitle": "",
+          "texts": [
+            {
+              "textSegments": [
+                {
+                  "text": "",
+                  "memorized": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    "member-access": [true, "no-public"],
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "never"],
+    "jsx-wrap-multiline": false,
+    "object-literal-sort-keys": [false]
+  }
+}
