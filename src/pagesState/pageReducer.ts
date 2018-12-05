@@ -1,21 +1,21 @@
 import { Reducer } from 'redux'
+import { PagesState } from '../stateTypes'
 import {
   MARK_SOLVED,
   NEXT_PAGE,
   PageActionType,
   PREV_PAGE,
+  SET_PAGE_DATA,
 } from './pageActions'
 
-interface IpageState {
-  currentPageIndex: number
-}
-
-const intitialState: IpageState = {
+const initialState: PagesState = {
   currentPageIndex: 0,
+  pagesOrder: [],
+  pages: {},
 }
 
-export const pageReducer: Reducer<IpageState, PageActionType> = (
-  state = intitialState,
+export const pageReducer: Reducer<PagesState, PageActionType> = (
+  state = initialState,
   action,
 ) => {
   switch (action.type) {
@@ -25,5 +25,7 @@ export const pageReducer: Reducer<IpageState, PageActionType> = (
       return { ...state, pageIndex: Math.max(state.currentPageIndex - 1, 0) }
     case MARK_SOLVED:
       return state
+    case SET_PAGE_DATA:
+      return { ...state, ...{ [action.pageData.pageId]: action.pageData } }
   }
 }

@@ -1,9 +1,4 @@
-export enum TRAINING_MODE {
-  WORDS,
-  LINES,
-  SECTIONS,
-  PAGE,
-}
+import { TRAINING_MODE } from '../stateTypes'
 
 export const SET_MODE = 'changeTrainingMode'
 

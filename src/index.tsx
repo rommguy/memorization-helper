@@ -13,6 +13,7 @@ const reducer = combineReducers({
   pages: pageReducer,
   training: trainingReducer,
 })
+
 const store = createStore(reducer, applyMiddleware(thunk.withExtraArgument({})))
 
 ReactDOM.render(

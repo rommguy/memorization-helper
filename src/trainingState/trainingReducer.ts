@@ -1,15 +1,12 @@
 import { Reducer } from 'redux'
-import { SET_MODE, TRAINING_MODE, trainingAction } from './trainingActions'
+import { TRAINING_MODE, TrainingState } from '../stateTypes'
+import { SET_MODE, trainingAction } from './trainingActions'
 
-interface ItrainingState {
-  trainingMode: TRAINING_MODE
-}
-
-const intitialState: ItrainingState = {
+const intitialState: TrainingState = {
   trainingMode: TRAINING_MODE.WORDS,
 }
 
-export const trainingReducer: Reducer<ItrainingState, trainingAction> = (
+export const trainingReducer: Reducer<TrainingState, trainingAction> = (
   state = intitialState,
   action,
 ) => {

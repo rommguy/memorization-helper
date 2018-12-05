@@ -1,17 +1,90 @@
 {
   "pages": [
     {
-      "pageType": "emergenencyProcedures",
-      "pageTitle": "",
+      "pageId": "f16I_red_5",
+      "pageType": "RED",
+      "pageTitle": "היחלצות מהירה על הקרקע",
       "sections": [
         {
           "sectionType": "list",
           "sectionTitle": "",
-          "texts": [
+          "memorized": true,
+          "items": [
             {
-              "textSegments": [
+              "memorized": true,
+              "segments": [
                 {
-                  "text": "",
+                  "text": "כח - חדל",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "אבטחת כיסא - הרם",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "רצועות - פתח ברגיל",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "EPU - OFF",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "subSection": {
+                "sectionType": "list",
+                "sectionTitle": "אם החופה לא נפתחת",
+                "memorized": true,
+                "items": [
+                  {
+                    "memorized": true,
+                    "segments": [
+                      {
+                        "text": "חמצן - 100%",
+                        "memorized": true
+                      }
+                    ]
+                  },
+                  {
+                    "memorized": true,
+                    "segments": [
+                      {
+                        "text": "השלך חופה - ידית T צהובה",
+                        "memorized": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "segments": [
+                {
+                  "text": "חופה - פתח",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "צא מהמטוס דרך צד שמאל",
                   "memorized": true
                 }
               ]
@@ -19,14 +92,125 @@
           ]
         },
         {
-          "sectionType": "warning",
-          "sectionTitle": "",
-          "texts": [
+          "sectionType": "list",
+          "sectionTitle": "לאחר עצירה",
+          "memorized": true,
+          "items": [
             {
-              "textSegments": [
+              "memorized": true,
+              "segments": [
                 {
-                  "text": "",
+                  "text": "PARKING - הצמד",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionType": "list",
+          "sectionTitle": "לאחר הכנסת סדים",
+          "memorized": true,
+          "items": [
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "MAIN PWR - OFF",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageId": "f16I_red_6",
+      "pageType": "RED",
+      "pageTitle": "האצה עצמית על הקרקע",
+      "sections": [
+        {
+          "sectionType": "text",
+          "sectionTitle": "אבחנה",
+          "memorized": true,
+          "items": [
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "סל\"ד המנוע עולה ללא תנועת מצערת",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionType": "list",
+          "sectionTitle": "פעולות",
+          "memorized": true,
+          "items": [
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "כח - חדל",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "MASTER דלק - OFF",
+                  "memorized": true
+                }
+              ]
+            },
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "עצור את המטוס ע\"י",
                   "memorized": false
+                },
+                {
+                  "text": "בלימה רציפה",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionType": "list",
+          "sectionTitle": "לאחר עצירה",
+          "memorized": true,
+          "items": [
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "PARKING - הצמד",
+                  "memorized": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sectionType": "list",
+          "sectionTitle": "לאחר הכנסת סדים",
+          "memorized": true,
+          "items": [
+            {
+              "memorized": true,
+              "segments": [
+                {
+                  "text": "MAIN PWR - OFF",
+                  "memorized": true
                 }
               ]
             }
