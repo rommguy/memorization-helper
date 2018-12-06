@@ -44,6 +44,13 @@ export interface PagesState {
   }
 }
 
+export interface ServerPageData {
+  pageId: string
+  pageType: string
+  pageTitle: string
+  sections: PageSection[]
+}
+
 export interface TrainingState {
   readonly trainingMode: TRAINING_MODE
 }

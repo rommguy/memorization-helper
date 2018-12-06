@@ -17,6 +17,6 @@
     "object-literal-sort-keys": [false],
     "interface-name": false,
     "arrow-parens": [true, "ban-single-arg-parens"],
-    "no-submodule-imports": [true, "lodash"]
+    "no-submodule-imports": [true, "lodash", "@material-ui/core"]
   }
 }
