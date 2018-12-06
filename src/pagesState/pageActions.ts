@@ -1,6 +1,6 @@
 import { find } from 'lodash/fp'
 import exampleData from '../exampleData.json'
-import { SinglePageState, ThunkAction } from '../stateTypes'
+import { SinglePageState, ThunkResult } from '../stateTypes'
 
 export const NEXT_PAGE = 'nextPage'
 export const PREV_PAGE = 'prevPage'
@@ -29,10 +29,9 @@ const setPageDataAction = (pageData: SinglePageState) => ({
 })
 type SetPageDataAction = ReturnType<typeof setPageDataAction>
 
-export const fetchPageData: (pageId: string) => ThunkAction = pageId => (
-  dispatch,
-  getState,
-) => {
+export const fetchPageData: (
+  pageId: string,
+) => ThunkResult<void> = pageId => dispatch => {
   const pagesExampleData = exampleData.pages as object[]
   const pageDataToAdd = find({ pageId }, pagesExampleData) as SinglePageState
   dispatch(setPageDataAction(pageDataToAdd))

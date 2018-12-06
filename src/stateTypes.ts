@@ -1,4 +1,5 @@
-import { Dispatch } from 'redux'
+import { Action } from 'redux'
+import { ThunkAction, ThunkDispatch as ThunkDispatchGeneric } from 'redux-thunk'
 
 export enum TRAINING_MODE {
   WORDS,
@@ -29,7 +30,7 @@ export interface SinglePageState {
   readonly pageId: string
   readonly isSolved: boolean
   readonly pageType: string
-  readonly pageData: {
+  readonly content: {
     readonly pageTitle: string
     sections: ReadonlyArray<PageSection>
   }
@@ -38,7 +39,7 @@ export interface SinglePageState {
 export interface PagesState {
   readonly currentPageIndex: number
   pagesOrder: ReadonlyArray<string>
-  readonly pages: {
+  readonly pagesData: {
     [pageId: string]: SinglePageState
   }
 }
@@ -47,10 +48,12 @@ export interface TrainingState {
   readonly trainingMode: TRAINING_MODE
 }
 
-export interface IRootState {
+export interface RootState {
   training: TrainingState
   pages: PagesState
 }
 
-export type GetState = () => IRootState
-export type ThunkAction = (dispatch: Dispatch, getState: GetState) => void
+type extraArg = void
+
+export type ThunkDispatch = ThunkDispatchGeneric<RootState, extraArg, Action>
+export type ThunkResult<R> = ThunkAction<R, RootState, extraArg, Action>

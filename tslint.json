@@ -1,6 +1,14 @@
 {
   "extends": ["tslint:latest", "tslint-react"],
+  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "linterOptions": {
+    "exclude": ["**/*.json"]
+  },
   "rules": {
+    "react-unused-props-and-state": [
+      true,
+      { "props-interface-regex": "Props$" }
+    ],
     "trailing-comma": [true, { "singleline": "never" }],
     "member-access": [true, "no-public"],
     "quotemark": [true, "single", "jsx-double"],

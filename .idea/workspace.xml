@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e652969d-2a6d-4b3e-abac-5fae37be04d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stateTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/memorization-helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/memorization-helper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProcedurePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pagesState/pageSelectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exampleData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampleData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pagesState/pageActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagesState/pageActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pagesState/pageReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pagesState/pageReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trainingState/trainingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainingState/trainingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stateTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stateTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/trainingState/trainingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/trainingState/trainingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -25,106 +26,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="521881960">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="eslintrc" value="2" />
-          <entry key="gitignore" value="2" />
-          <entry key="js" value="9" />
-          <entry key="json" value="16" />
-          <entry key="prettierrc" value="3" />
-          <entry key="ts" value="13" />
-          <entry key="tsx" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="16" />
-          <entry key="JavaScript" value="9" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="13" />
-          <entry key="TypeScript JSX" value="2" />
-          <entry key="tsconfig" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="eslintrc" value="96" />
-          <entry key="gitignore" value="1" />
-          <entry key="js" value="107" />
-          <entry key="json" value="1103" />
-          <entry key="prettierrc" value="11" />
-          <entry key="ts" value="5295" />
-          <entry key="tsx" value="504" />
-          <entry key="txt" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="1194" />
-          <entry key="JavaScript" value="107" />
-          <entry key="PLAIN_TEXT" value="30" />
-          <entry key="TypeScript" value="5295" />
-          <entry key="TypeScript JSX" value="504" />
-          <entry key="tsconfig" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="2" />
-          <entry key="TsLintLanguageService" value="1" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exampleData.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProcedurePage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="175" column="47" lean-forward="true" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+            <state relative-caret-position="80">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#1591#1825#0" />
-                <element signature="e#1605#1813#0" />
-                <element signature="e#1666#1799#0" />
-                <element signature="e#1684#1783#0" />
-                <element signature="e#1845#2217#0" />
-                <element signature="e#1973#2207#0" />
-                <element signature="e#1987#2195#0" />
-                <element signature="e#2048#2181#0" />
-                <element signature="e#2066#2165#0" />
-                <element signature="e#146#456#0" />
-                <element signature="e#259#446#0" />
-                <element signature="e#278#504#0" />
-                <element signature="e#301#420#0" />
-                <element signature="e#324#441#0" />
-                <element signature="e#636#835#0" />
-                <element signature="e#223#342#0" />
-                <element signature="e#682#775#0" />
-                <element signature="e#852#1062#0" />
-                <element signature="e#847#974#0" />
-                <element signature="e#865#966#0" />
-                <element signature="e#1322#1418#0" />
-                <element signature="e#1468#1848#0" />
-                <element signature="e#1586#1838#0" />
-                <element signature="e#1600#1826#0" />
-                <element signature="e#1661#1812#0" />
-                <element signature="e#1684#1783#0" />
-                <element signature="e#1845#2212#0" />
-                <element signature="e#1968#2202#0" />
-                <element signature="e#1982#2190#0" />
-                <element signature="e#2043#2176#0" />
-                <element signature="e#2066#2165#0" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,62 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pagesState/pageReducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stateTypes.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tslint.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trainingState/trainingReducer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trainingState/trainingActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="44" selection-end-column="44" />
+            <state relative-caret-position="48">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -196,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pagesState/pageActions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="320">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -206,19 +62,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+        <entry file="file://$PROJECT_DIR$/src/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="240">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trainingState/trainingReducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/pagesState/pageSelectors.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="64">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stateTypes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,11 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>typescript</find>
-      <find>react</find>
-      <find>jsx</find>
-      <find>React</find>
-      <find>t</find>
       <find>console</find>
       <find>parser</find>
       <find>isolated</find>
@@ -250,7 +137,6 @@
       <find>ISinglePageState</find>
       <find>ItrainingState</find>
       <find>TRAINING_MODE</find>
-      <find>str</find>
       <find>sectionTitle</find>
       <find>sections</find>
       <find>SECTIONS</find>
@@ -259,6 +145,18 @@
       <find>memorized</find>
       <find>: false</find>
       <find>EPU</find>
+      <find>str</find>
+      <find>provider</find>
+      <find>react-router-dom</find>
+      <find>ReturnType</find>
+      <find>@types/react</find>
+      <find>'</find>
+      <find>pagesData</find>
+      <find>ProcedurePageDispatchProps</find>
+      <find>connect</find>
+      <find>fetchPageData</find>
+      <find>ThunkDispatch</find>
+      <find>ThunkAction</find>
     </findStrings>
     <replaceStrings>
       <replace>pageActionTypes</replace>
@@ -281,31 +179,31 @@
         <option value="$PROJECT_DIR$/src/App.test.tsx" />
         <option value="$PROJECT_DIR$/src/.eslintrc" />
         <option value="$PROJECT_DIR$/src/pageReducer.ts" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/serviceWorker.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pageState/pageActions.ts" />
         <option value="$PROJECT_DIR$/src/types.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/utlis/thunk.ts" />
         <option value="$PROJECT_DIR$/src/pageState/pageReducer.ts" />
         <option value="$PROJECT_DIR$/src/trainingState/pageReducer.ts" />
         <option value="$PROJECT_DIR$/.prettierrc" />
         <option value="$PROJECT_DIR$/src/pagesState/pagesStateTypes.js" />
         <option value="$PROJECT_DIR$/src/trainingState/trainingActions.ts" />
-        <option value="$PROJECT_DIR$/src/trainingState/trainingReducer.ts" />
-        <option value="$PROJECT_DIR$/src/pagesState/pageReducer.ts" />
-        <option value="$PROJECT_DIR$/src/index.tsx" />
-        <option value="$PROJECT_DIR$/src/pagesState/pageActions.ts" />
-        <option value="$PROJECT_DIR$/tslint.json" />
-        <option value="$PROJECT_DIR$/src/stateTypes.ts" />
         <option value="$PROJECT_DIR$/src/exampleData.json" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Page.ts" />
+        <option value="$PROJECT_DIR$/src/pagesState/pageSelectors.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/components/ProcedurePage.ts" />
+        <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/src/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/ProcedurePage.tsx" />
+        <option value="$PROJECT_DIR$/src/pagesState/pageActions.ts" />
+        <option value="$PROJECT_DIR$/src/stateTypes.ts" />
+        <option value="$PROJECT_DIR$/src/pagesState/pageReducer.ts" />
+        <option value="$PROJECT_DIR$/src/trainingState/trainingReducer.ts" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -313,23 +211,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-240" />
-    <option name="y" value="-1027" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="y" value="-1177" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,12 +278,37 @@
               <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="@types" type="462c0819:PsiDirectoryNode" />
+              <item name="lodash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@types" type="462c0819:PsiDirectoryNode" />
               <item name="react-redux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="redux-thunk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memorization-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memorization-helper" type="b2602c69:ProjectViewProjectNode" />
@@ -477,7 +388,11 @@
       <option name="presentableId" value="Default" />
       <updated>1543485320046</updated>
       <workItem from="1543485321248" duration="4527000" />
-      <workItem from="1543757037893" duration="27201000" />
+      <workItem from="1543757037893" duration="27603000" />
+      <workItem from="1544013075642" duration="83000" />
+      <workItem from="1544013190051" duration="169000" />
+      <workItem from="1544013420764" duration="7858000" />
+      <workItem from="1544035122324" duration="1871000" />
     </task>
     <task id="LOCAL-00001" summary="initial redux with typescript">
       <created>1543929810191</created>
@@ -486,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543929810191</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="real example data + redux types for global root state">
+      <created>1544012679408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544012679408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31728000" />
+    <option name="totallyTimeSpent" value="42111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-240" y="-1177" width="1920" height="1177" extended-state="6" />
@@ -501,8 +423,8 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28248587" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28248587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,12 +442,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial redux with typescript" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial redux with typescript" />
+    <MESSAGE value="real example data + redux types for global root state" />
+    <option name="LAST_COMMIT_MESSAGE" value="real example data + redux types for global root state" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -542,13 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.eslintrc" />
     <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -559,47 +473,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/types.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-redux/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utlis/thunk.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/types.ts" />
+    <entry file="file://$PROJECT_DIR$/src/utlis/thunk.ts" />
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -610,6 +489,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagesState/pagesStateTypes.ts" />
     <entry file="file://$PROJECT_DIR$/src/trainingState/trainingActions.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -617,110 +497,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagesState/pagesStateTypes.ts">
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exampleData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="5" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagesState/pageReducer.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#139#3158#0" />
+            <element signature="e#149#2391#0" />
+            <element signature="e#262#2381#0" />
+            <element signature="e#276#478#0" />
+            <element signature="e#337#464#0" />
+            <element signature="e#355#448#0" />
+            <element signature="e#492#702#0" />
+            <element signature="e#553#688#0" />
+            <element signature="e#571#672#0" />
+            <element signature="e#716#928#0" />
+            <element signature="e#777#914#0" />
+            <element signature="e#795#898#0" />
+            <element signature="e#942#1145#0" />
+            <element signature="e#1003#1131#0" />
+            <element signature="e#1021#1115#0" />
+            <element signature="e#1159#2140#0" />
+            <element signature="e#1222#1969#0" />
+            <element signature="e#1376#1953#0" />
+            <element signature="e#1396#1649#0" />
+            <element signature="e#1469#1629#0" />
+            <element signature="e#1493#1607#0" />
+            <element signature="e#1669#1935#0" />
+            <element signature="e#1742#1915#0" />
+            <element signature="e#1766#1893#0" />
+            <element signature="e#1997#2126#0" />
+            <element signature="e#2015#2110#0" />
+            <element signature="e#2154#2369#0" />
+            <element signature="e#2215#2355#0" />
+            <element signature="e#2233#2339#0" />
+            <element signature="e#2401#2768#0" />
+            <element signature="e#2524#2758#0" />
+            <element signature="e#2538#2746#0" />
+            <element signature="e#2599#2732#0" />
+            <element signature="e#2617#2716#0" />
+            <element signature="e#2778#3150#0" />
+            <element signature="e#2906#3140#0" />
+            <element signature="e#2920#3128#0" />
+            <element signature="e#2981#3114#0" />
+            <element signature="e#2999#3098#0" />
+            <element signature="e#3297#3677#0" />
+            <element signature="e#3415#3667#0" />
+            <element signature="e#3429#3655#0" />
+            <element signature="e#3490#3641#0" />
+            <element signature="e#3508#3625#0" />
+            <element signature="e#3687#4609#0" />
+            <element signature="e#3806#4599#0" />
+            <element signature="e#3820#4022#0" />
+            <element signature="e#3881#4008#0" />
+            <element signature="e#3899#3992#0" />
+            <element signature="e#4036#4246#0" />
+            <element signature="e#4097#4232#0" />
+            <element signature="e#4115#4216#0" />
+            <element signature="e#4260#4587#0" />
+            <element signature="e#4321#4573#0" />
+            <element signature="e#4339#4443#0" />
+            <element signature="e#4461#4557#0" />
+            <element signature="e#4619#4986#0" />
+            <element signature="e#4742#4976#0" />
+            <element signature="e#4756#4964#0" />
+            <element signature="e#4817#4950#0" />
+            <element signature="e#4835#4934#0" />
+            <element signature="e#4996#5368#0" />
+            <element signature="e#5124#5358#0" />
+            <element signature="e#5138#5346#0" />
+            <element signature="e#5199#5332#0" />
+            <element signature="e#5217#5316#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trainingState/trainingReducer.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3472">
+          <caret line="245" column="57" selection-start-line="245" selection-start-column="57" selection-end-line="245" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagesState/pageSelectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="345">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/redux-thunk/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="32">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pagesState/pageActions.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/ProcedurePage.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stateTypes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="505">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exampleData.json">
+    <entry file="file://$PROJECT_DIR$/src/pagesState/pageActions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="175" column="47" lean-forward="true" selection-start-line="175" selection-start-column="47" selection-end-line="175" selection-end-column="47" />
+        <state relative-caret-position="320">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
-            <element signature="e#1591#1825#0" />
-            <element signature="e#1605#1813#0" />
-            <element signature="e#1666#1799#0" />
-            <element signature="e#1684#1783#0" />
-            <element signature="e#1845#2217#0" />
-            <element signature="e#1973#2207#0" />
-            <element signature="e#1987#2195#0" />
-            <element signature="e#2048#2181#0" />
-            <element signature="e#2066#2165#0" />
-            <element signature="e#146#456#0" />
-            <element signature="e#259#446#0" />
-            <element signature="e#278#504#0" />
-            <element signature="e#301#420#0" />
-            <element signature="e#324#441#0" />
-            <element signature="e#636#835#0" />
-            <element signature="e#223#342#0" />
-            <element signature="e#682#775#0" />
-            <element signature="e#852#1062#0" />
-            <element signature="e#847#974#0" />
-            <element signature="e#865#966#0" />
-            <element signature="e#1322#1418#0" />
-            <element signature="e#1468#1848#0" />
-            <element signature="e#1586#1838#0" />
-            <element signature="e#1600#1826#0" />
-            <element signature="e#1661#1812#0" />
-            <element signature="e#1684#1783#0" />
-            <element signature="e#1845#2212#0" />
-            <element signature="e#1968#2202#0" />
-            <element signature="e#1982#2190#0" />
-            <element signature="e#2043#2176#0" />
-            <element signature="e#2066#2165#0" />
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/lodash/fp.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="4698" column="8" selection-start-line="4698" selection-start-column="8" selection-end-line="4698" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pagesState/pageReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trainingState/trainingReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

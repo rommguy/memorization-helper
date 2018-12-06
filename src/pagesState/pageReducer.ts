@@ -1,3 +1,4 @@
+import { set } from 'lodash/fp'
 import { Reducer } from 'redux'
 import { PagesState } from '../stateTypes'
 import {
@@ -11,7 +12,7 @@ import {
 const initialState: PagesState = {
   currentPageIndex: 0,
   pagesOrder: [],
-  pages: {},
+  pagesData: {},
 }
 
 export const pageReducer: Reducer<PagesState, PageActionType> = (
@@ -26,6 +27,8 @@ export const pageReducer: Reducer<PagesState, PageActionType> = (
     case MARK_SOLVED:
       return state
     case SET_PAGE_DATA:
-      return { ...state, ...{ [action.pageData.pageId]: action.pageData } }
+      return set(`pagesData.${action.pageData.pageId}`, action.pageData, state)
+    default:
+      return initialState
   }
 }

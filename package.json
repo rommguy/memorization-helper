@@ -8,14 +8,20 @@
     "@types/node": "^10.12.10",
     "@types/react": "^16.7.8",
     "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^6.0.10",
+    "@types/react-router": "^4.4.1",
+    "@types/react-router-dom": "^4.3.1",
     "axios": "^0.18.0",
     "lodash": "^4.17.11",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
+    "tslint-microsoft-contrib": "^6.0.0",
     "typescript": "^3.1.6"
   },
   "scripts": {
@@ -35,7 +41,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/react-redux": "^6.0.10",
     "@types/redux": "^3.6.0",
     "eslint-plugin-jest": "^22.1.0",
     "eslint-plugin-promise": "^4.0.1",
